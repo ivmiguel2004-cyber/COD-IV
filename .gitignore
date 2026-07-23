@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+cod_iv_dev.db
+.env
