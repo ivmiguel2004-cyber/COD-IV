@@ -17,8 +17,8 @@ import json
 import random
 from pathlib import Path
 
-from database import Base, engine, SessionLocal
-import models
+from api.database import Base, engine, SessionLocal
+from api import models
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 

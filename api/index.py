@@ -18,11 +18,8 @@ from fastapi import FastAPI, Depends, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session, joinedload
 
-import models
-import schemas
-import auth
-import quiz_logic
-from database import Base, engine, get_db
+from api import models, schemas, auth, quiz_logic
+from api.database import Base, engine, get_db
 
 # Cria as tabelas se ainda não existirem (idempotente)
 Base.metadata.create_all(bind=engine)
@@ -298,7 +295,7 @@ def popular_base_de_dados(key: str):
     if not chave_esperada or key != chave_esperada:
         raise HTTPException(status_code=403, detail="Chave inválida ou COD_IV_ADMIN_SEED_KEY não definida.")
 
-    import seed_db
+    from api import seed_db
     seed_db.main()
     return {"status": "ok", "mensagem": "Base de dados populada (ou já estava)."}
 

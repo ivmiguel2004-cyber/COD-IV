@@ -17,7 +17,7 @@ import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-import models
+from api import models
 
 SECRET_KEY = os.environ.get("COD_IV_SECRET_KEY", "muda-esta-chave-em-producao")
 ALGORITHM = "HS256"

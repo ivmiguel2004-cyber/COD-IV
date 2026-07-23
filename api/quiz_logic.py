@@ -5,7 +5,7 @@ import random
 from typing import List
 from sqlalchemy.orm import Session, joinedload
 
-import models
+from api import models
 
 NUM_PERGUNTAS_VALIDOS = (10, 15, 20, 50)
 TEMPO_POR_PERGUNTA_SEGUNDOS = 90  # 1,5 min por pergunta
