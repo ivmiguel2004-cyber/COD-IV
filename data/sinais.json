@@ -1,0 +1,3714 @@
+[
+  {
+    "codigo": "1.1",
+    "nome": "Hospital",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.2",
+    "nome": "Hospital com urgência médica",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.3",
+    "nome": "Posto de socorros",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.4",
+    "nome": "Farmácia",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.5",
+    "nome": "Bombeiros",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.6",
+    "nome": "GNR",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.7",
+    "nome": "PSP",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.8",
+    "nome": "Oficina",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.9",
+    "nome": "Posto de combustível com GPL",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.10",
+    "nome": "Posto de combustível",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "1.11",
+    "nome": "Telefone",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "emergencia",
+    "imagem_url": "/static/sinais/1.11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.1",
+    "nome": "Parque de estacionamento",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.1A",
+    "nome": "Parque de estacionamento com cobertura",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.1A.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.2",
+    "nome": "Igreja / santuário",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.3",
+    "nome": "Cemitério",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.4",
+    "nome": "Mercado",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.5",
+    "nome": "Escola",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.6",
+    "nome": "Correios",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.7",
+    "nome": "Centro",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.8",
+    "nome": "Zona pedonal",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.9",
+    "nome": "Bairro",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.10",
+    "nome": "Metro",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.11",
+    "nome": "Estação ferroviária",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.12",
+    "nome": "Estação rodoviária",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.13",
+    "nome": "Táxis",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.14",
+    "nome": "Aluguer de viaturas",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.15",
+    "nome": "Ferry-boat",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.16",
+    "nome": "Cais de embarque",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.17",
+    "nome": "Porto",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.18",
+    "nome": "Aeroporto / aeródromo",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.19",
+    "nome": "Heliporto",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.20",
+    "nome": "Município",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.20.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.21",
+    "nome": "Auto-estrada",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.22",
+    "nome": "Deficiente",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.22.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.23",
+    "nome": "Passagem desnivelada para peões com rampa",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.23.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.24",
+    "nome": "Passagem desnivelada para peões com escada",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.24.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.25",
+    "nome": "Sanitários",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.25.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.25A",
+    "nome": "Sanitários",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.25A.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.26",
+    "nome": "Centro de inspecções",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.26.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.27",
+    "nome": "Via reservada a automóveis e motociclos",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.27.png",
+    "descricao": null
+  },
+  {
+    "codigo": "2.28",
+    "nome": "Fontanário",
+    "categoria": "simbolos_apoio_utente",
+    "subcategoria": "outras_indicacoes",
+    "imagem_url": "/static/sinais/2.28.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-1",
+    "nome": "Parque de campismo/ caravanismo",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-2",
+    "nome": "Parque de campismo",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-3",
+    "nome": "Parque de caravanismo",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-4",
+    "nome": "Pousada/estalagem",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-5",
+    "nome": "Albergue",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-6",
+    "nome": "Pousada de juventude",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-7",
+    "nome": "Hotel / motel/ residencial",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-8",
+    "nome": "Posto de informações",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-9",
+    "nome": "Restaurante",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-10",
+    "nome": "Bar",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-11",
+    "nome": "Zoo",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-12",
+    "nome": "Turismo Rural",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-13",
+    "nome": "Termas",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-14",
+    "nome": "Aquário",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-15",
+    "nome": "Artesanato",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-16",
+    "nome": "Praça de touros",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-17",
+    "nome": "Alojamento particular",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-18",
+    "nome": "Marina",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-19",
+    "nome": "Cabo",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-20",
+    "nome": "Casino",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-20.png",
+    "descricao": null
+  },
+  {
+    "codigo": "II-21",
+    "nome": "Centro de exposições",
+    "categoria": "simbolos_turisticos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/II-21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-1",
+    "nome": "Rio/lago/albufeira",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-2",
+    "nome": "Serra",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-3",
+    "nome": "Gruta",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-4",
+    "nome": "Parque/jardim",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-5",
+    "nome": "Praia",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-6",
+    "nome": "Pinhal",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-7",
+    "nome": "Parque de merendas",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-8",
+    "nome": "Percursos pedestres",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-9",
+    "nome": "Miradouro/ponto de vista",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-10",
+    "nome": "Zona agrícola",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-11",
+    "nome": "Zona vinícola",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-12",
+    "nome": "Área protegida/ parque natural/reserva natural",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "III-13",
+    "nome": "Parque nacional",
+    "categoria": "simbolos_geograficos_ecologicos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/III-13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-1",
+    "nome": "Monumento / castelo",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-2",
+    "nome": "Museu",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-3",
+    "nome": "Biblioteca",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-4",
+    "nome": "Ruínas",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-5",
+    "nome": "Monumento pré-histórico",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-6",
+    "nome": "Teatro",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-7",
+    "nome": "Património mundial",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-8",
+    "nome": "Aldeia preservada",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-9",
+    "nome": "Pelourinho/cruzeiro",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-10",
+    "nome": "Ponte",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-11",
+    "nome": "Solar",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "IV-12",
+    "nome": "Aldeia histórica",
+    "categoria": "simbolos_culturais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/IV-12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-1",
+    "nome": "Vela",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-2",
+    "nome": "Estádio",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-3",
+    "nome": "Hipódromo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-4",
+    "nome": "Campo de golfe",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-5",
+    "nome": "Autódromo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-6",
+    "nome": "Ténis",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-7",
+    "nome": "Piscina",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-8",
+    "nome": "Pesca desportiva",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-9",
+    "nome": "Centro desportivo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-10",
+    "nome": "Campo de tiro",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-11",
+    "nome": "Ski",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-12",
+    "nome": "Parque aquático",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-13",
+    "nome": "Kartódromo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-14",
+    "nome": "Centro hípico",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-15",
+    "nome": "Remo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-16",
+    "nome": "Montanhismo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-17",
+    "nome": "Windsurf",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-18",
+    "nome": "Caça",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-19",
+    "nome": "Motonáutica",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-20",
+    "nome": "Canoagem",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-20.png",
+    "descricao": null
+  },
+  {
+    "codigo": "V-21",
+    "nome": "Atletismo",
+    "categoria": "simbolos_desportivos",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/V-21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "VI-1",
+    "nome": "Fábrica / zona industrial",
+    "categoria": "simbolos_industriais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/VI-1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "VI-2",
+    "nome": "Indústria pesqueira",
+    "categoria": "simbolos_industriais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/VI-2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "VI-3",
+    "nome": "Terminal rodoviário de pesados",
+    "categoria": "simbolos_industriais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/VI-3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "VI-4",
+    "nome": "Coudelaria nacional",
+    "categoria": "simbolos_industriais",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/VI-4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A1a",
+    "nome": "Curva à direita",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A1b",
+    "nome": "Curva à esquerda",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A1c",
+    "nome": "Curva à direita e contracurva",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A1c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A1d",
+    "nome": "Curva à esquerda e contracurva",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A1d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A2a",
+    "nome": "Lomba",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A2b",
+    "nome": "Depressão",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A2c",
+    "nome": "Lomba ou depressão",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A2c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A3a",
+    "nome": "Descida perigosa",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A3b",
+    "nome": "Subida de inclinação acentuada",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A4a",
+    "nome": "Passagem estreita",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A4a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A4b",
+    "nome": "Passagem estreita",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A4b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A4c",
+    "nome": "Passagem estreita",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A4c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A5",
+    "nome": "Pavimento escorregadio",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A6",
+    "nome": "Projecção de gravilha",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A7a",
+    "nome": "Bermas baixas",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A7b",
+    "nome": "Bermas baixas",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A7b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A8",
+    "nome": "Saída num cais ou precipício",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A9",
+    "nome": "Queda de pedras",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A10",
+    "nome": "Ponte móvel",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A11",
+    "nome": "Neve ou gelo",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A12",
+    "nome": "Vento lateral",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A13",
+    "nome": "Visibilidade insuficiente",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A14",
+    "nome": "Crianças",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A15",
+    "nome": "Idosos",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A16a",
+    "nome": "Passagem de peões",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A16a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A16b",
+    "nome": "Travessia de peões",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A16b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A17",
+    "nome": "Saída de ciclistas",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A18",
+    "nome": "Cavaleiros",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A19a",
+    "nome": "Animais",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A19a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A19b",
+    "nome": "Animais selvagens",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A19b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A20",
+    "nome": "Túnel",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A20.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A21",
+    "nome": "Pista de aviação",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A22",
+    "nome": "Sinalização luminosa",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A22.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A23",
+    "nome": "Trabalhos na via",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A23.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A24",
+    "nome": "Cruzamento ou entroncamento",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A24.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A25",
+    "nome": "Trânsito nos dois sentidos",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A25.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A26",
+    "nome": "Passagem de nível com guarda",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A26.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A27",
+    "nome": "Passagem de nível sem guarda",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A27.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A28",
+    "nome": "Intersecção com via onde circulam veículos sobre carris",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A28.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A29",
+    "nome": "Outros perigos",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A29.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A30",
+    "nome": "Congestionamento",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A30.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A31",
+    "nome": "Obstrução da via",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A31.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A32a",
+    "nome": "Local de passagem de nível sem guarda",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A32a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "A32b",
+    "nome": "Local de passagem de nível sem guarda com duas ou mais vias",
+    "categoria": "sinais_perigo",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/A32b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B1",
+    "nome": "Cedência de passagem",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B2",
+    "nome": "Paragem obrigatória em cruzamentos ou entroncamentos",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B3",
+    "nome": "Via com prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B4",
+    "nome": "Fim de via com prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B5",
+    "nome": "Cedência de passagem nos estreitamentos da faixa de rodagem",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B6",
+    "nome": "Prioridade nos estreitamentos da faixa de rodagem",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B7",
+    "nome": "Aproximação de rotunda",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B8",
+    "nome": "Cruzamento com via sem prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B9a",
+    "nome": "Entroncamento com via sem prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B9a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B9b",
+    "nome": "Entroncamento com via sem prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B9b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B9c",
+    "nome": "Entroncamento com via sem prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B9c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "B9d",
+    "nome": "Entroncamento com via sem prioridade",
+    "categoria": "sinais_cedencia_passagem",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/B9d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C1",
+    "nome": "Sentido proibido",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C2",
+    "nome": "Trânsito proibido",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3a",
+    "nome": "Trânsito proibido a automóveis e motociclos com carro",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3b",
+    "nome": "Trânsito proibido a automóveis pesados",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3c",
+    "nome": "Trânsito proibido a automóveis de mercadorias",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3d",
+    "nome": "Trânsito proibido a automóveis de mercadorias de peso total superior a ... t",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3e",
+    "nome": "Trânsito proibido a motociclos simples",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3f",
+    "nome": "Trânsito proibido a ciclomotores",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3g",
+    "nome": "Trânsito proibido a velocípedes",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3g.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3h",
+    "nome": "Trânsito proibido a veículos agrícolas",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3h.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3i",
+    "nome": "Trânsito proibido a veículos de tracção animal",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3i.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3j",
+    "nome": "Trânsito proibido a carros de mão",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3j.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3l",
+    "nome": "Trânsito proibido a peões",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3l.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3m",
+    "nome": "Trânsito proibido a cavaleiros",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3m.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3n",
+    "nome": "Trânsito proibido a veículos com reboque",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3n.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3o",
+    "nome": "Trânsito proibido a veículos com reboque de dois ou mais eixos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3o.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3p",
+    "nome": "Trânsito proibido a veículos transportando mercadorias perigosas",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3p.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3q",
+    "nome": "Trânsito proibido a veículos transportando produtos facilmente inflamáveis ou explosivos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3q.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C3r",
+    "nome": "Trânsito proibido a veículos transportando produtos susceptíveis de poluírem as águas",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C3r.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4a",
+    "nome": "Trânsito proibido a automóveis e motociclos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4b",
+    "nome": "Trânsito proibido a automóveis de mercadorias e a veículos a motor com reboque",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4c",
+    "nome": "Trânsito proibido a automóveis, a motociclos e a veículos de tracção animal",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4d",
+    "nome": "Trânsito proibido a automóveis de mercadorias e a veículos de tracção animal",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4e",
+    "nome": "Trânsito proibido a peões, a animais e a veículos que não sejam automóveis ou motociclos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C4f",
+    "nome": "Trânsito proibido a veículos de duas rodas",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C4f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C5",
+    "nome": "Trânsito proibido a veículos de peso por eixo superior a ... t",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C6",
+    "nome": "Trânsito proibido a veículos de peso total superior a ... t",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C7",
+    "nome": "Trânsito proibido a veículos ou conjunto de veículos de comprimento superior a ... m",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C8",
+    "nome": "Trânsito proibido a veículos de largura superior a ... m",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C9",
+    "nome": "Trânsito proibido a veículos de altura superior a ... m",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C10",
+    "nome": "Proibição de transitar a menos de ... m do veículo precedente",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C11a",
+    "nome": "Proibição de virar à direita",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C11a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C11b",
+    "nome": "Proibição de virar à esquerda",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C11b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C12",
+    "nome": "Proibição de inversão do sentido de marcha",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C13",
+    "nome": "Proibição de exceder a velocidade máxima de ... km/h",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C14a",
+    "nome": "Proibição de ultrapassar",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C14a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C14b",
+    "nome": "Proibição de ultrapassar para automóveis pesados",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C14b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C14c",
+    "nome": "Proibição de ultrapassar para motociclos e ciclomotores",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C14c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C15",
+    "nome": "Estacionamento proibido",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C16",
+    "nome": "Paragem e estacionamento proibidos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C17",
+    "nome": "Proibição de sinais sonoros",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C18",
+    "nome": "Paragem obrigatória na alfândega",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C19",
+    "nome": "Outras paragens obrigatórias",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C20a",
+    "nome": "Fim de todas as proibições impostas anteriormente por sinalização a veículos em marcha",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C20a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C20b",
+    "nome": "Fim da limitação de velocidade",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C20b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C20c",
+    "nome": "Fim da proibição de ultrapassar",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C20c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C20d",
+    "nome": "Fim da proibição de ultrapassar para automóveis pesados",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C20d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C20e",
+    "nome": "Fim da proibição de ultrapassar para motociclos e ciclomotores",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C20e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C21",
+    "nome": "Fim da paragem ou estacionamento proibidos",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "C22",
+    "nome": "Fim da proibição de sinais sonoros",
+    "categoria": "sinais_proibicao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/C22.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D1a",
+    "nome": "Sentido obrigatório",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D1b",
+    "nome": "Sentido obrigatório",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D1c",
+    "nome": "Sentido obrigatório",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D1c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D1d",
+    "nome": "Sentido obrigatório",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D1d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D1e",
+    "nome": "Sentido obrigatório",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D1e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D2a",
+    "nome": "Sentidos obrigatórios possíveis",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D2b",
+    "nome": "Sentidos obrigatórios possíveis",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D2c",
+    "nome": "Sentidos obrigatórios possíveis",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D2c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D3a",
+    "nome": "Obrigação de contornar a placa ou obstáculo",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D3b",
+    "nome": "Obrigação de contornar a placa ou obstáculo",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D4",
+    "nome": "Rotunda",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D5a",
+    "nome": "Via obrigatória para automóveis de mercadorias",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D5a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D5b",
+    "nome": "Via obrigatória para automóveis pesados",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D5b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D6",
+    "nome": "Via reservada a veículos de transporte público",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7a",
+    "nome": "Pista obrigatória para velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7b",
+    "nome": "Pista obrigatória para peões",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7c",
+    "nome": "Pista obrigatória para cavaleiros",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7d",
+    "nome": "Pista obrigatória para gado em manada",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7e",
+    "nome": "Pista obrigatória para peões e velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D7f",
+    "nome": "Pista obrigatória para peões e velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D7f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D8",
+    "nome": "Obrigação de transitar à velocidade mínima de ... km/h",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D9",
+    "nome": "Obrigação de utilizar correntes de neve",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D10",
+    "nome": "Obrigação de utilizar as luzes de cruzamento (médios) acesas",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D11a",
+    "nome": "Fim da via obrigatória para automóveis de mercadorias",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D11a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D11b",
+    "nome": "Fim da via obrigatória para automóveis pesados",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D11b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D12",
+    "nome": "Fim da via reservada a veículos de transporte público",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13a",
+    "nome": "Fim da pista obrigatória para velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13b",
+    "nome": "Fim da pista obrigatória para peões",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13c",
+    "nome": "Fim da pista obrigatória para cavaleiros",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13d",
+    "nome": "Fim da pista obrigatória para gado em manada",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13e",
+    "nome": "Fim da pista obrigatória para peões e velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D13f",
+    "nome": "Fim da pista obrigatória para peões e velocípedes",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D13f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D14",
+    "nome": "Fim da obrigação de transitar à velocidade mínima de ... km/h",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D15",
+    "nome": "Fim da obrigação de utilizar correntes de neve",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "D16",
+    "nome": "Fim da obrigação de utilizar as luzes de cruzamento (médios) acesas",
+    "categoria": "sinais_obrigacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/D16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "E1",
+    "nome": "Destinos sobre o itinerário",
+    "categoria": "sinais_seleccao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/E1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "E2",
+    "nome": "Destinos de saída",
+    "categoria": "sinais_seleccao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/E2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "E3",
+    "nome": "Sinal de selecção lateral",
+    "categoria": "sinais_seleccao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/E3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "F1a",
+    "nome": "Aplicação de prescrição a via de trânsito",
+    "categoria": "sinais_afectacao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/F1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "F1b",
+    "nome": "Aplicação de prescrição a via de trânsito",
+    "categoria": "sinais_afectacao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/F1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "F1c",
+    "nome": "Aplicação de prescrição a via de trânsito",
+    "categoria": "sinais_afectacao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/F1c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "F2",
+    "nome": "Via de trânsito reservada a veículos de transporte público",
+    "categoria": "sinais_afectacao_vias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/F2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G1",
+    "nome": "Zona de estacionamento autorizado",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G2a",
+    "nome": "Zona de estacionamento proibido",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G2b",
+    "nome": "Zona de estacionamento proibido",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G3",
+    "nome": "Zona de paragem e estacionamento proibidos",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G4",
+    "nome": "Zona de velocidade limitada",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G5a",
+    "nome": "Zona de trânsito proibido",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G5a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G5b",
+    "nome": "Zona de trânsito proibido",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G5b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G6",
+    "nome": "Fim de zona de estacionamento autorizado",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G7a",
+    "nome": "Fim de zona de paragem e estacionamento proibidos",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G7b",
+    "nome": "Fim de zona de paragem e estacionamento proibidos",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G7b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G8",
+    "nome": "Fim de zona de velocidade limitada",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "G9",
+    "nome": "Fim de todas as proibições impostas na zona",
+    "categoria": "sinais_zona",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/G9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H1a",
+    "nome": "Estacionamento autorizado",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H1b",
+    "nome": "Estacionamento autorizado",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H2",
+    "nome": "Hospital",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H3",
+    "nome": "Trânsito de sentido único",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H4",
+    "nome": "Via pública sem saída",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H5",
+    "nome": "Correntes de neve recomendadas",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H6",
+    "nome": "Velocidade recomendada",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H7",
+    "nome": "Passagem para peões",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H8a",
+    "nome": "Passagem desnivelada para peões",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H8a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H8b",
+    "nome": "Passagem desnivelada para peões",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H8b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H9",
+    "nome": "Hospital com urgência médica",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H10",
+    "nome": "Posto de socorros",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H11",
+    "nome": "Oficina",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H12",
+    "nome": "Telefone",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H13a",
+    "nome": "Posto de abastecimento de combustível",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H13a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H13b",
+    "nome": "Posto de abastecimento de combustível com GPL",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H13b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H14a",
+    "nome": "Parque de campismo",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H14a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H14b",
+    "nome": "Parque para reboques de campismo",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H14b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H14c",
+    "nome": "Parque misto para campismo e reboques de campismo",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H14c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H15",
+    "nome": "Telefone de emergência",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H16a",
+    "nome": "Pousada ou estalagem",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H16a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H16b",
+    "nome": "Albergue",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H16b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H16c",
+    "nome": "Pousada de juventude",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H16c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H16d",
+    "nome": "Turismo rural",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H16d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H17",
+    "nome": "Hotel",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H18",
+    "nome": "Restaurante",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H19",
+    "nome": "Café ou bar",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H20a",
+    "nome": "Paragem de veículos de transporte colectivo de passageiros",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H20a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H20b",
+    "nome": "Paragem de veículos de transporte colectivo de passageiros que transitem sobre carris",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H20b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H20c",
+    "nome": "Paragem de veículos afectos ao transporte de crianças",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H20c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H21",
+    "nome": "Aeroporto",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H22",
+    "nome": "Posto de informações",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H22.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H23",
+    "nome": "Estação de radiodifusão",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H23.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H24",
+    "nome": "Auto-estrada",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H24.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H25",
+    "nome": "Via reservada a automóveis e motociclos",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H25.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H26",
+    "nome": "Escapatória",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H26.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H27",
+    "nome": "Inversão de marcha",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H27.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H28",
+    "nome": "Limites de velocidade",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H28.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H29a",
+    "nome": "Identificação de país",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H29a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H29b",
+    "nome": "Identificação de país",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H29b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H30",
+    "nome": "Praticabilidade da via",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H30.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H31a",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H31a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H31b",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H31b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H31c",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H31c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H31d",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H31d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H32",
+    "nome": "Supressão de via de trânsito",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H32.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H33",
+    "nome": "Via verde",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H33.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H34",
+    "nome": "Centro de inspecções",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H34.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H35",
+    "nome": "Túnel",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H35.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H36",
+    "nome": "Fim da recomendação do uso de correntes de neve",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H36.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H37",
+    "nome": "Fim de velocidade recomendada",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H37.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H38",
+    "nome": "Fim de auto-estrada",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H38.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H39",
+    "nome": "Fim de via reservada a automóveis e motociclos",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H39.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H40",
+    "nome": "Fim de estacionamento autorizado",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H40.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H41",
+    "nome": "Fim de túnel",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H41.png",
+    "descricao": null
+  },
+  {
+    "codigo": "H42",
+    "nome": "Velocidade média",
+    "categoria": "sinais_informacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/H42.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I1",
+    "nome": "Pré-aviso simplificado (Intersecção desnivelada)",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2a",
+    "nome": "Pré-aviso gráfico (Intersecção de nível)",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2b",
+    "nome": "Pré-aviso gráfico (Rotunda)",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2c",
+    "nome": "Pré-aviso gráfico (Intersecção de nível)",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2d",
+    "nome": "Pré-aviso gráfico (Intersecção desnivelada)",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2e",
+    "nome": "Pré-aviso gráfico",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I2f",
+    "nome": "Pré-aviso gráfico",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I2f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I3a",
+    "nome": "Pré-aviso reduzido",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I3b",
+    "nome": "Pré-aviso reduzido",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I4a",
+    "nome": "Aproximação de área de serviço",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I4a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I4b",
+    "nome": "Aproximação de via de saída para área de serviço",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I4b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I5a",
+    "nome": "Aproximação de área de repouso",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I5a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I5b",
+    "nome": "Aproximação de via de saída para uma área de repouso",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I5b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I6",
+    "nome": "Pré-sinalização de itinerário",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I7a",
+    "nome": "Pré-sinalização de via sem saída",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I7b",
+    "nome": "Pré-sinalização de via sem saída",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I7b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I8",
+    "nome": "Aproximação de travessia de crianças",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9a",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9b",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9c",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9d",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9e",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "I9f",
+    "nome": "Aproximação de passagem de nível",
+    "categoria": "sinais_pre_sinalizacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/I9f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J1",
+    "nome": "Direcção da via de saída",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J2",
+    "nome": "Direcção de via de acesso",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J3a",
+    "nome": "Indicação de âmbito urbano",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J3b",
+    "nome": "Indicação de âmbito urbano",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J3c",
+    "nome": "Indicação de âmbito urbano",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J3c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "J3d",
+    "nome": "Indicação de âmbito urbano",
+    "categoria": "sinais_direccao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/J3d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "L1",
+    "nome": "Sinal de confirmação",
+    "categoria": "sinais_confirmacao",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/L1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "N1a",
+    "nome": "Início de localidade",
+    "categoria": "sinais_identificacao_localidades",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/N1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "N1b",
+    "nome": "Início de localidade",
+    "categoria": "sinais_identificacao_localidades",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/N1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "N2a",
+    "nome": "Fim de localidade",
+    "categoria": "sinais_identificacao_localidades",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/N2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "N2b",
+    "nome": "Fim de localidade",
+    "categoria": "sinais_identificacao_localidades",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/N2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O1a",
+    "nome": "Demarcação hectométrica da via - IP",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O1b",
+    "nome": "Demarcação hectométrica da via – IC",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O1c",
+    "nome": "Demarcação hectométrica da via – restantes estradas",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O1c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O1d",
+    "nome": "Demarcação hectométrica da via – estradas municipais",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O1d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O2a",
+    "nome": "Demarcação quilométrica da via – AE",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O2a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O2b",
+    "nome": "Demarcação quilométrica da via - IP",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O2b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O2c",
+    "nome": "Demarcação quilométrica da via – IC",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O2c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O2d",
+    "nome": "Demarcação quilométrica da via – restantes estradas",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O2d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O2e",
+    "nome": "Demarcação quilométrica da via – estradas municipais",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O2e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O3a",
+    "nome": "Demarcação miriamétrica da via - AE",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O3a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O3b",
+    "nome": "Demarcação miriamétrica da via - IP",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O3b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O3c",
+    "nome": "Demarcação miriamétrica da via – IC",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O3c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O3d",
+    "nome": "Demarcação miriamétrica da via – restantes estradas",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O3d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O3e",
+    "nome": "Demarcação miriamétrica da via – estradas municipais",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O3e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O4a",
+    "nome": "Sinal de aproximação de saída",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O4a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O4b",
+    "nome": "Sinal de aproximação de saída",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O4b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O4c",
+    "nome": "Sinal de aproximação de saída",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O4c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O5a",
+    "nome": "Baia direccional para balizamento de pontos de divergência",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O5a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O5b",
+    "nome": "Baia direccional para balizamento de pontos de divergência",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O5b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O6a",
+    "nome": "Baia direccional",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O6a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O6b",
+    "nome": "Baia direccional",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O6b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O7a",
+    "nome": "Baliza de posição",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "O7b",
+    "nome": "Baliza de posição",
+    "categoria": "sinais_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/O7b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T1",
+    "nome": "Região",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T2",
+    "nome": "Património",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T3",
+    "nome": "Património cultural",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T4a",
+    "nome": "Identificação de circuito",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T4a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T4b",
+    "nome": "Direcção de circuito",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T4b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T5a",
+    "nome": "Identificação de rota",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T5a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T5b",
+    "nome": "Direcção de rota",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T5b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "T6",
+    "nome": "Localidade",
+    "categoria": "sinalizacao_turistico_cultural",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/T6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M1",
+    "nome": "Linha contínua",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M2",
+    "nome": "Linha descontínua",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M3",
+    "nome": "Linha mista",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M4",
+    "nome": "Linha descontínua de aviso",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M5",
+    "nome": "Linha de sentido reversível",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M6",
+    "nome": "Linha descontínua de abrandamento",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M6a",
+    "nome": "Linha descontínua de aceleração",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M6a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M7",
+    "nome": "Linha contínua (corredor de circulação)",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M7a",
+    "nome": "Linha descontínua (corredor de circulação)",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M7a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M8",
+    "nome": "Linha de paragem",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M8a",
+    "nome": "Linha de paragem com símbolo \"STOP\"",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M8a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M9",
+    "nome": "Linha de cedência de passagem",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M9a",
+    "nome": "Linha de cedência de passagem com símbolo triangular",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M9a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M10",
+    "nome": "Passagem para ciclistas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M10a",
+    "nome": "Passagem para ciclistas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M10a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M11",
+    "nome": "Passagem para peões",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M11a",
+    "nome": "Passagem para peões",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M11a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M12",
+    "nome": "Linha contínua junto ao limite da faixa de rodagem",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M12a",
+    "nome": "Linha contínua sobre o bordo do passeio",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M12a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M13",
+    "nome": "Linha descontínua junto ao limite da faixa de rodagem",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M13a",
+    "nome": "Linha descontínua sobre o bordo do passeio",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M13a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M14",
+    "nome": "Linha em ziguezague",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M14a",
+    "nome": "Paragem e estacionamento para cargas e descargas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M14a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15a",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15b",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15c",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15d",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15e",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15e.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M15f",
+    "nome": "Seta de selecção",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M15f.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M16",
+    "nome": "Seta de desvio",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M16.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M16a",
+    "nome": "Seta de desvio",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M16a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M16b",
+    "nome": "Seta de desvio",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M16b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M17",
+    "nome": "Raias oblíquas delimitadas por linhas contínuas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M17.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M17a",
+    "nome": "Raias oblíquas delimitadas por linhas contínuas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M17a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M17b",
+    "nome": "Cruzamento ou entroncamento facilmente congestionável",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M17b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M18",
+    "nome": "Marcação de objectos contíguos à faixa de rodagem",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M18.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M19",
+    "nome": "Guias",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M19.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M20",
+    "nome": "Bandas cromáticas",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M20.png",
+    "descricao": null
+  },
+  {
+    "codigo": "M21",
+    "nome": "Marcas de segurança",
+    "categoria": "marcas_rodoviarias",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/M21.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST1a",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST1a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST1b",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST1b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST1c",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST1c.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST1d",
+    "nome": "Número e sentido das vias de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST1d.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST2",
+    "nome": "Supressão de via de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST3",
+    "nome": "Supressão da berma",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST4",
+    "nome": "Desvio de via de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST5",
+    "nome": "Desvio para a faixa de rodagem contrária",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST6",
+    "nome": "Estreitamento de via de trânsito",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST7",
+    "nome": "Pré-sinalização de desvio de itinerário",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST8a",
+    "nome": "Desvio de itinerário",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST8a.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST8b",
+    "nome": "Desvio de itinerário",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST8b.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST9",
+    "nome": "Fim de desvio",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST10",
+    "nome": "Circulação alternada",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST11",
+    "nome": "Trânsito sujeito a demora",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST12",
+    "nome": "Telefone de emergência",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST13",
+    "nome": "Acidente",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST13.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ST14",
+    "nome": "Fim de obras",
+    "categoria": "sinalizacao_temporaria",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ST14.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET1",
+    "nome": "Raquetas de sinalização",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET1.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET2",
+    "nome": "Baias direccionais",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET2.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET3",
+    "nome": "Baias de posição",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET3.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET4",
+    "nome": "Baliza de alinhamento",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET4.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET5",
+    "nome": "Balizas de posição",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET5.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET6",
+    "nome": "Cones",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET6.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET7",
+    "nome": "Pórticos",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET7.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET8",
+    "nome": "Conjunto de lanternas sequenciais sem fios",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET8.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET9",
+    "nome": "Conjunto de lanternas sequenciais com fios",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET9.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET10",
+    "nome": "Perfil móvel de plástico",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET10.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET11",
+    "nome": "Robot",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET11.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET12",
+    "nome": "Atrelado de balizamento",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET12.png",
+    "descricao": null
+  },
+  {
+    "codigo": "ET13",
+    "nome": "Seta luminosa",
+    "categoria": "dispositivos_complementares",
+    "subcategoria": null,
+    "imagem_url": "/static/sinais/ET13.png",
+    "descricao": null
+  }
+]
