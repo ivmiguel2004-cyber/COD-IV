@@ -58,6 +58,10 @@ def gerar_perguntas_com_fotografias(db):
         ("mecanica", "mecanica", FOTOGRAFIAS_MECANICA, "Que peça ou componente aparece na fotografia?"),
     )
     for materia, pasta, ficheiros, enunciado in grupos:
+        # A foto 112 foi arquivada por engano na pasta de sinais, mas mostra
+        # amortecedores; nunca a apresentamos num quiz de Código.
+        if materia == "codigo":
+            ficheiros = [f for f in ficheiros if f != "112_amortecedores.jpg"]
         etiquetas = [_nome_da_fotografia(f) for f in ficheiros]
         existentes = {
             imagem_url for (imagem_url,) in db.query(models.QuizPergunta.imagem_url)
