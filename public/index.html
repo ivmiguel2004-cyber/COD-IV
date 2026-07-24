@@ -89,6 +89,17 @@
         <button id="btn-iniciar-quiz" class="btn-primary btn-block" disabled>Iniciar quiz</button>
       </div>
     </div>
+
+    <section class="card feedback-card" aria-labelledby="feedback-title">
+      <h2 id="feedback-title">Ajuda-nos a melhorar</h2>
+      <p>Encontraste um erro, falta uma peça, um sinal ou tens uma sugestão? Envia o teu feedback.</p>
+      <form id="form-feedback">
+        <label for="feedback-mensagem">Sugestão de melhoria</label>
+        <textarea id="feedback-mensagem" name="mensagem" minlength="10" maxlength="1500" required placeholder="Escreve aqui a tua sugestão..."></textarea>
+        <p id="feedback-status" class="form-hint" aria-live="polite"></p>
+        <button type="submit" class="btn-ghost">Enviar feedback</button>
+      </form>
+    </section>
   </section>
 
   <!-- ===== VISTA: QUIZ ===== -->

@@ -190,6 +190,20 @@ main {
 .num-btn.selected { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 10%, var(--bg)); }
 .tempo-info { color: var(--text-muted); font-size: 0.9rem; margin: 8px 0 16px; }
 
+/* ---------- Feedback ---------- */
+.feedback-card { margin-top: 20px; }
+.feedback-card h2 { margin-top: 0; font-size: 1.15rem; }
+.feedback-card > p { color: var(--text-muted); margin-bottom: 16px; }
+#form-feedback { display: flex; flex-direction: column; gap: 9px; }
+#form-feedback label { font-size: 0.9rem; color: var(--text-muted); }
+#form-feedback textarea {
+  min-height: 112px; resize: vertical; padding: 11px 14px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--bg); color: var(--text); font: inherit;
+}
+#form-feedback textarea:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.form-success { color: var(--success); font-size: 0.88rem; min-height: 1.2em; margin: 0; }
+
 /* ---------- Quiz ---------- */
 .quiz-header {
   display: flex;

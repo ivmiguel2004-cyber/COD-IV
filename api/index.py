@@ -104,6 +104,18 @@ def login(payload: schemas.LoginRequest, db: Session = Depends(get_db)):
     return schemas.AuthResponse(token=token, utilizador=utilizador_valido)
 
 
+@app.post("/api/feedback")
+def enviar_feedback(
+    payload: schemas.FeedbackCreate,
+    db: Session = Depends(get_db),
+    utilizador: models.Utilizador = Depends(utilizador_atual),
+):
+    feedback = models.Feedback(utilizador_id=utilizador.id, mensagem=payload.mensagem.strip())
+    db.add(feedback)
+    db.commit()
+    return {"ok": True, "mensagem": "Obrigado pelo teu feedback!"}
+
+
 # ---------- Quiz ----------
 @app.post("/api/quiz/iniciar", response_model=schemas.QuizSessionOut)
 def iniciar_quiz(
@@ -112,6 +124,9 @@ def iniciar_quiz(
     utilizador: models.Utilizador = Depends(utilizador_atual),
 ):
     try:
+        # A rotina é idempotente: cria só as perguntas com fotografia que faltam.
+        from api.seed_db import gerar_perguntas_com_fotografias
+        gerar_perguntas_com_fotografias(db)
         num_perguntas = quiz_logic.validar_num_perguntas(payload.num_perguntas)
         perguntas = quiz_logic.selecionar_perguntas(db, payload.materia, num_perguntas)
     except ValueError as e:

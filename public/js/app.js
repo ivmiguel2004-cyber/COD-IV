@@ -276,7 +276,7 @@ function renderizarPergunta() {
     img.classList.add("hidden");
   }
 
-  const multiSelect = pergunta.tipo !== "reconhecimento";
+  const multiSelect = pergunta.tipo !== "reconhecimento" && pergunta.tipo !== "fotografia";
 
   const opcoesWrap = $("#quiz-opcoes");
   opcoesWrap.innerHTML = "";
@@ -444,6 +444,27 @@ function renderizarResultados(resultado) {
 
 $("#btn-novo-quiz").addEventListener("click", () => {
   irParaConfig();
+});
+
+// ---------- Feedback ----------
+$("#form-feedback").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const mensagem = form.mensagem.value.trim();
+  const status = $("#feedback-status");
+  status.textContent = "";
+  try {
+    const data = await apiFetch("/feedback", {
+      method: "POST",
+      body: JSON.stringify({ mensagem }),
+    });
+    status.textContent = data.mensagem;
+    status.className = "form-success";
+    form.reset();
+  } catch (err) {
+    status.textContent = err.message;
+    status.className = "form-error";
+  }
 });
 
 // ---------- Arranque ----------

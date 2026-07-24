@@ -20,6 +20,18 @@ class Utilizador(Base):
     criado_em = Column(DateTime, server_default=func.now())
 
     sessions = relationship("QuizSession", back_populates="utilizador")
+    feedbacks = relationship("Feedback", back_populates="utilizador", cascade="all, delete-orphan")
+
+
+class Feedback(Base):
+    __tablename__ = "feedbacks"
+
+    id = Column(Integer, primary_key=True, index=True)
+    utilizador_id = Column(Integer, ForeignKey("utilizadores.id", ondelete="CASCADE"), nullable=False)
+    mensagem = Column(Text, nullable=False)
+    criado_em = Column(DateTime, server_default=func.now())
+
+    utilizador = relationship("Utilizador", back_populates="feedbacks")
 
 
 class Sinal(Base):

@@ -26,12 +26,22 @@ def selecionar_perguntas(db: Session, materia: str, num_perguntas: int) -> List[
     Escolhe aleatoriamente `num_perguntas` perguntas da matéria pedida,
     já com as opções carregadas (evita N+1 queries).
     """
-    disponiveis = (
+    perguntas_com_fotografia = (
         db.query(models.QuizPergunta)
         .options(joinedload(models.QuizPergunta.opcoes))
-        .filter(models.QuizPergunta.materia == materia)
+        .filter(models.QuizPergunta.materia == materia, models.QuizPergunta.tipo == "fotografia")
         .all()
     )
+    # Os quizzes usam primeiro o banco de fotografias. Só recorrem às
+    # perguntas antigas caso ainda não existam fotografias suficientes.
+    disponiveis = perguntas_com_fotografia
+    if len(disponiveis) < num_perguntas:
+        disponiveis = (
+            db.query(models.QuizPergunta)
+            .options(joinedload(models.QuizPergunta.opcoes))
+            .filter(models.QuizPergunta.materia == materia)
+            .all()
+        )
     if len(disponiveis) < num_perguntas:
         raise ValueError(
             f"Só há {len(disponiveis)} perguntas disponíveis para '{materia}', "

@@ -33,6 +33,10 @@ class AuthResponse(BaseModel):
     utilizador: UtilizadorOut
 
 
+class FeedbackCreate(BaseModel):
+    mensagem: str = Field(..., min_length=10, max_length=1500)
+
+
 # ---------- Quiz — iniciar sessão ----------
 class IniciarQuizRequest(BaseModel):
     materia: str = Field(..., pattern="^(codigo|mecanica)$")

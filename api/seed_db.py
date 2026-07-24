@@ -22,6 +22,64 @@ from api import models
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
+# Fotografias preparadas para o quiz. A pasta static/dicas fica fora desta
+# lista, porque é somente material de apoio e não deve entrar nas perguntas.
+FOTOGRAFIAS_SINAIS = """
+002_sinal_perigo_animais_silvestres.jpg 005_sinal_perigo_cais_ou_ribeira.jpg 007_sinal_obras_na_via.jpg 009_sinal_lombas.jpg 012_sinal_rotunda_obrigatoria.jpg 013_sinal_limite_peso_3_5_toneladas.jpg 019_sinal_projecao_de_gravilha.jpg 021_sinal_veiculo_pode_cair_na_agua.jpg 022_sinal_proibido_estacionar.jpg 023_sinal_outros_perigos.jpg 025_pivo_de_suspensao.jpg 026_sinal_passagem_de_nivel_com_cancela.jpg 029_sinal_curva_a_direita.jpg 031_sinal_estrada_com_prioridade.jpg 032_sinal_correntes_de_neve_obrigatorias.jpg 033_sinal_pavimento_escorregadio.jpg 034_sinal_vento_lateral.jpg 035_sinal_entroncamento_lateral.jpg 036_sinal_faixas_de_transito.jpg 037_sinal_perigo_colisao.jpg 038_sinal_direcao_estacionamento.jpg 039_sinal_passagem_de_nivel_sem_cancela.jpg 043_sinal_estreitamento_da_via.jpg 045_sinal_animais_bovinos.jpg 047_sinal_proibido_ultrapassar.jpg 049_sinal_tunel.jpg 050_sinal_fim_de_autoestrada.jpg 052_sinal_passagem_para_peoes.jpg 053_sinal_luzes_de_cruzamento_obrigatorias.jpg 055_sinal_proibido_bicicletas.jpg 057_sinal_passagem_de_nivel_com_barreira.jpg 058_sinal_distancia_minima_10_metros.jpg 059_sinal_curvas_sucessivas.jpg 060_sinal_entroncamento_a_esquerda.jpg 062_sinal_descida_perigosa.jpg 063_sinal_estreitamento_a_direita.jpg 065_sinal_veiculo_pode_cair_de_altura.jpg 066_sinal_aeronave.jpg 070_sinal_fim_de_proibicao_de_ultrapassar.jpg 073_sinal_irregularidade_na_via.jpg 074_sinal_distancia_minima_70_metros.jpg 075_sinal_estreitamento_a_esquerda.jpg 076_sinal_proibido_deitar_lixo.jpg 077_sinal_filas_de_transito.jpg 080_sinal_convergencia_de_faixas.jpg 082_sinal_criancas.jpg 084_sinal_proibido_veiculos_contaminantes.jpg 086_sinal_via_para_cavalgaduras.jpg 088_sinal_curvas_perigosas.jpg 089_sinal_ponte_movel.jpg 090_sinal_transito_proibido.jpg 092_sinal_criancas_a_atravesar.jpg 093_sinal_tram.jpg 096_sinal_sentido_proibido.jpg 097_sinal_sentido_proibido_redondo.jpg 101_sinal_via_para_embarcacoes.jpg 103_sinal_subida_perigosa_10_porcento.jpg 106_sinal_direcao_em_frente_ou_direita.jpg 107_sinal_proibicao_generica.jpg 109_sinal_fim_de_todas_as_proibicoes.jpg 110_sinal_altura_maxima_3_5_metros.jpg 112_amortecedores.jpg 114_sinal_proibido_caminhoes.jpg
+""".split()
+
+FOTOGRAFIAS_MECANICA = """
+001_radiador.jpg 003_ventoinha_radiador.jpg 004_corrente_distribuicao.jpg 006_cubo_roda_com_rolamento.jpg 008_bomba_combustivel.jpg 010_rolamentos.jpg 011_correia_distribuicao.jpg 014_prato_de_embraiagem.jpg 015_filtros_de_oleo.jpg 016_caixa_de_direcao.jpg 017_conjunto_amortecedor_e_mola.jpg 018_tampas_do_radiador.jpg 020_compressor_ar_condicionado.jpg 027_bieletas_da_barra_estabilizadora.jpg 028_bobina_de_ignicao.jpg 030_bracos_de_suspensao.jpg 040_corpo_de_borboleta.jpg 041_mangas_de_eixo.jpg 042_injetores_de_combustivel.jpg 044_bomba_de_direcao_assistida.jpg 046_motores_de_arranque_usados.jpg 048_motor_de_arranque.jpg 051_arvore_de_cames.jpg 054_virabrequim.jpg 056_disco_de_embraiagem.jpg 061_modulo_bomba_de_combustivel.jpg 064_servofreio.jpg 067_alternador.jpg 068_terminais_de_bateria.jpg 069_buzinas.jpg 071_bomba_de_agua.jpg 072_valvula_termostatica.jpg 078_modulo_bomba_combustivel_com_boia.jpg 079_valvulas_do_motor.jpg 081_filtro_de_combustivel.jpg 083_turbocompressor.jpg 085_cilindros_de_roda.jpg 087_cubo_de_roda.jpg 091_injetor_diesel.jpg 094_junta_do_motor.jpg 095_filtros_de_ar.jpg 098_semiarvores_de_transmissao.jpg 099_caixa_de_velocidades.jpg 100_alternador_automovel.jpg 102_radiador_automovel.jpg 104_semiarvores_de_transmissao_usadas.jpg 105_kit_bracos_de_suspensao.jpg 108_velas_de_ignicao.jpg 111_conjunto_de_amortecedores.jpg 113_cabos_de_ignicao.jpg 115_cilindro_mestre_de_travao.jpg 116_correias_de_acessorios.jpg 117_diagrama_motor_em_corte.jpg 118_motor_completo.jpg 119_chassis_com_motor.jpg 120_diagrama_componentes_do_motor.jpg 121_motor_em_vista_frontal.jpg 122_alternador_isolado.jpg 123_alternador_instalado.jpg 124_diagrama_do_alternador.png 125_componentes_do_alternador.jpg 126_alternador_com_correia.jpg 127_partes_do_alternador.webp
+""".split()
+
+
+def _nome_da_fotografia(nome_ficheiro: str) -> str:
+    """Converte o nome organizado do ficheiro em texto para as opções."""
+    nome = nome_ficheiro.rsplit(".", 1)[0].split("_", 1)[-1]
+    for prefixo in ("sinal_perigo_", "sinal_"):
+        if nome.startswith(prefixo):
+            nome = nome[len(prefixo):]
+            break
+    nome = nome.replace("_", " ")
+    substituicoes = {
+        "peoes": "peões", "proibicao": "proibição", "direcao": "direção",
+        "transito": "trânsito", "veiculo": "veículo", "arvore": "árvore",
+        "semiarvores": "semiárvores", "pivo": "pivô",
+    }
+    for original, corrigido in substituicoes.items():
+        nome = nome.replace(original, corrigido)
+    return nome.capitalize()
+
+
+def gerar_perguntas_com_fotografias(db):
+    """Cria perguntas de escolha única a partir das fotografias do projeto."""
+    grupos = (
+        ("codigo", "sinais", FOTOGRAFIAS_SINAIS, "Que sinal de trânsito aparece na fotografia?"),
+        ("mecanica", "mecanica", FOTOGRAFIAS_MECANICA, "Que peça ou componente aparece na fotografia?"),
+    )
+    for materia, pasta, ficheiros, enunciado in grupos:
+        etiquetas = [_nome_da_fotografia(f) for f in ficheiros]
+        existentes = {
+            imagem_url for (imagem_url,) in db.query(models.QuizPergunta.imagem_url)
+            .filter_by(tipo="fotografia", materia=materia).all()
+        }
+        for ficheiro, etiqueta in zip(ficheiros, etiquetas):
+            imagem_url = f"/static/{pasta}/{ficheiro}"
+            if imagem_url in existentes:
+                continue
+            distratores = random.sample([x for x in etiquetas if x != etiqueta], k=3)
+            opcoes = [(etiqueta, True)] + [(texto, False) for texto in distratores]
+            random.shuffle(opcoes)
+            pergunta = models.QuizPergunta(
+                tipo="fotografia", materia=materia, categoria="fotografias",
+                enunciado=enunciado, imagem_url=imagem_url,
+            )
+            db.add(pergunta)
+            db.flush()
+            for ordem, (texto, correta) in enumerate(opcoes):
+                db.add(models.QuizOpcao(pergunta_id=pergunta.id, texto=texto, correta=correta, ordem=ordem))
+        db.commit()
+
 
 def carregar_json(nome_ficheiro):
     caminho = DATA_DIR / nome_ficheiro
@@ -352,6 +410,7 @@ def main():
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:
+        gerar_perguntas_com_fotografias(db)
         sinais = seed_sinais(db)
         perguntas_mecanica = seed_mecanica(db)
         gerar_perguntas_reconhecimento(db, sinais)          # Tipo C — código
